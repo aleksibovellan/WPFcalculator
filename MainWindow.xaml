@@ -53,18 +53,18 @@
             </Button.Effect>
         </Button>
 
-        <Button x:Name="btn_equal" Content="=" HorizontalAlignment="Left" Margin="428,120,0,0" VerticalAlignment="Top" Height="71" Width="72" FontFamily="Candara Light" FontSize="36" FontWeight="Normal" BorderThickness="1,1,1,1" Click="btn_equal_Click">
+        <Button x:Name="btn_equal" Content="=" HorizontalAlignment="Left" Margin="417,120,0,0" VerticalAlignment="Top" Height="71" Width="72" FontFamily="Candara Light" FontSize="36" FontWeight="Normal" BorderThickness="1,1,1,1" Click="btn_equal_Click">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
 
-        <TextBox x:Name="box_results" HorizontalAlignment="Left" Margin="588,108,0,0" TextWrapping="Wrap" Text="18" VerticalAlignment="Top" Width="110" Height="95" TextAlignment="Center" FontSize="60" FontWeight="Normal" TextDecorations="{x:Null}" Background="#FFE0DFDF">
+        <TextBox x:Name="box_results" HorizontalAlignment="Left" Margin="588,108,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="110" Height="95" TextAlignment="Center" FontSize="60" FontWeight="Normal" TextDecorations="{x:Null}" Background="#FFE0DFDF">
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <TextBox x:Name="box_status" HorizontalAlignment="Left" Margin="588,207,0,0" TextWrapping="Wrap" Text="Valmis. Valitse luku #1 ..." VerticalAlignment="Top" Width="110" Height="15" Background="#FF169E1E" FontStyle="Normal" TextAlignment="Center" SelectionTextBrush="White" Foreground="#FFFFFEFE" FontSize="9">
+        <TextBox x:Name="box_status" HorizontalAlignment="Left" Margin="588,207,0,0" TextWrapping="Wrap" Text="Valmis" VerticalAlignment="Top" Width="110" Height="25" Background="#FF169E1E" FontStyle="Normal" TextAlignment="Center" SelectionTextBrush="White" Foreground="#FFFFFEFE" FontSize="9">
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
