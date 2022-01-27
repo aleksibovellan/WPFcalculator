@@ -24,5 +24,55 @@ namespace WPF_laskin
         {
             InitializeComponent();
         }
+
+        private void btn_1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_3_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_4_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_5_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_6_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_7_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_8_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_9_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_equal_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

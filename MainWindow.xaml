@@ -7,53 +7,53 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btn_1" Content="1" HorizontalAlignment="Left" Margin="122,85,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+        <Button x:Name="btn_1" Content="1" HorizontalAlignment="Left" Margin="122,85,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1" Click="btn_1_Click">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button x:Name="btn_2" Content="2" HorizontalAlignment="Left" Margin="205,85,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+        <Button x:Name="btn_2" Content="2" HorizontalAlignment="Left" Margin="205,85,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1" Click="btn_2_Click">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button x:Name="btn_3" Content="3" HorizontalAlignment="Left" Margin="290,85,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+        <Button x:Name="btn_3" Content="3" HorizontalAlignment="Left" Margin="290,85,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1" Click="btn_3_Click">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button x:Name="btn_4" Content="4" HorizontalAlignment="Left" Margin="122,138,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+        <Button x:Name="btn_4" Content="4" HorizontalAlignment="Left" Margin="122,138,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1" Click="btn_4_Click">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button x:Name="btn_5" Content="5" HorizontalAlignment="Left" Margin="205,138,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+        <Button x:Name="btn_5" Content="5" HorizontalAlignment="Left" Margin="205,138,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1" Click="btn_5_Click">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button x:Name="btn_6" Content="6" HorizontalAlignment="Left" Margin="290,138,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+        <Button x:Name="btn_6" Content="6" HorizontalAlignment="Left" Margin="290,138,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1" Click="btn_6_Click">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button x:Name="btn_7" Content="7" HorizontalAlignment="Left" Margin="122,197,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+        <Button x:Name="btn_7" Content="7" HorizontalAlignment="Left" Margin="122,197,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1" Click="btn_7_Click">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button x:Name="btn_8" Content="8" HorizontalAlignment="Left" Margin="205,197,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+        <Button x:Name="btn_8" Content="8" HorizontalAlignment="Left" Margin="205,197,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1" Click="btn_8_Click">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button x:Name="btn_9" Content="9" HorizontalAlignment="Left" Margin="290,197,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+        <Button x:Name="btn_9" Content="9" HorizontalAlignment="Left" Margin="290,197,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1" Click="btn_9_Click">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
 
-        <Button x:Name="btn_equal" Content="=" HorizontalAlignment="Left" Margin="428,120,0,0" VerticalAlignment="Top" Height="71" Width="72" FontFamily="Candara Light" FontSize="36" FontWeight="Normal" BorderThickness="1,1,1,1">
+        <Button x:Name="btn_equal" Content="=" HorizontalAlignment="Left" Margin="428,120,0,0" VerticalAlignment="Top" Height="71" Width="72" FontFamily="Candara Light" FontSize="36" FontWeight="Normal" BorderThickness="1,1,1,1" Click="btn_equal_Click">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
@@ -64,7 +64,7 @@
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <TextBox x:Name="box_status" HorizontalAlignment="Left" Margin="588,207,0,0" TextWrapping="Wrap" Text="Valmis. Valitse luku #1 ..." VerticalAlignment="Top" Width="110" Height="25" Background="#FF169E1E" FontStyle="Normal" TextAlignment="Center" SelectionTextBrush="White" Foreground="#FFFFFEFE" FontSize="9">
+        <TextBox x:Name="box_status" HorizontalAlignment="Left" Margin="588,207,0,0" TextWrapping="Wrap" Text="Valmis. Valitse luku #1 ..." VerticalAlignment="Top" Width="110" Height="15" Background="#FF169E1E" FontStyle="Normal" TextAlignment="Center" SelectionTextBrush="White" Foreground="#FFFFFEFE" FontSize="9">
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
