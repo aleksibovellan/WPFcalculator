@@ -7,22 +7,70 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btn_1" Content="1" HorizontalAlignment="Left" Margin="122,85,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code"/>
-        <Button x:Name="btn_2" Content="2" HorizontalAlignment="Left" Margin="205,85,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code"/>
-        <Button x:Name="btn_3" Content="3" HorizontalAlignment="Left" Margin="290,85,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code"/>
-        <Button x:Name="btn_4" Content="4" HorizontalAlignment="Left" Margin="122,138,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code"/>
-        <Button x:Name="btn_5" Content="5" HorizontalAlignment="Left" Margin="205,138,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code"/>
-        <Button x:Name="btn_6" Content="6" HorizontalAlignment="Left" Margin="290,138,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code"/>
-        <Button x:Name="btn_7" Content="7" HorizontalAlignment="Left" Margin="122,197,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code"/>
-        <Button x:Name="btn_8" Content="8" HorizontalAlignment="Left" Margin="205,197,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code"/>
-        <Button x:Name="btn_9" Content="9" HorizontalAlignment="Left" Margin="290,197,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code"/>
+        <Button x:Name="btn_1" Content="1" HorizontalAlignment="Left" Margin="122,85,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn_2" Content="2" HorizontalAlignment="Left" Margin="205,85,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn_3" Content="3" HorizontalAlignment="Left" Margin="290,85,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn_4" Content="4" HorizontalAlignment="Left" Margin="122,138,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn_5" Content="5" HorizontalAlignment="Left" Margin="205,138,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn_6" Content="6" HorizontalAlignment="Left" Margin="290,138,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn_7" Content="7" HorizontalAlignment="Left" Margin="122,197,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn_8" Content="8" HorizontalAlignment="Left" Margin="205,197,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btn_9" Content="9" HorizontalAlignment="Left" Margin="290,197,0,0" VerticalAlignment="Top" Height="35" Width="36" FontWeight="Normal" FontSize="14" FontFamily="Cascadia Code" BorderThickness="1,1,1,1">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
 
-        <Button x:Name="btn_equal" Content="=" HorizontalAlignment="Left" Margin="428,120,0,0" VerticalAlignment="Top" Height="71" Width="72" FontFamily="Candara Light" FontSize="36" FontWeight="Normal"/>
+        <Button x:Name="btn_equal" Content="=" HorizontalAlignment="Left" Margin="428,120,0,0" VerticalAlignment="Top" Height="71" Width="72" FontFamily="Candara Light" FontSize="36" FontWeight="Normal" BorderThickness="1,1,1,1">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
 
-        <TextBox x:Name="box_results" HorizontalAlignment="Left" Margin="588,108,0,0" TextWrapping="Wrap" Text="18" VerticalAlignment="Top" Width="110" Height="95" TextAlignment="Center" FontSize="60" FontWeight="Normal" TextDecorations="{x:Null}"/>
-        <TextBox x:Name="box_status" HorizontalAlignment="Left" Margin="588,207,0,0" TextWrapping="Wrap" Text="Odottaa lukua #1 ..." VerticalAlignment="Top" Width="110" Height="25" Background="#FFFFDE00" FontStyle="Normal" FontSize="10" TextAlignment="Center"/>
+        <TextBox x:Name="box_results" HorizontalAlignment="Left" Margin="588,108,0,0" TextWrapping="Wrap" Text="18" VerticalAlignment="Top" Width="110" Height="95" TextAlignment="Center" FontSize="60" FontWeight="Normal" TextDecorations="{x:Null}" Background="#FFE0DFDF">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox x:Name="box_status" HorizontalAlignment="Left" Margin="588,207,0,0" TextWrapping="Wrap" Text="Valmis. Valitse luku #1 ..." VerticalAlignment="Top" Width="110" Height="25" Background="#FF169E1E" FontStyle="Normal" TextAlignment="Center" SelectionTextBrush="White" Foreground="#FFFFFEFE" FontSize="9">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
 
-        <Label x:Name="lbl_guide" Content="Klikkaa ensin yhtä numeroa - ja sitten toista - jonka jälkeen = napilla ne summautuvat yhteen." HorizontalAlignment="Center" Margin="0,280,0,0" VerticalAlignment="Top" Width="556" Height="32" FontSize="14" FontStyle="Normal" FontFamily="MS UI Gothic" FontWeight="Normal"/>
+        <Label x:Name="lbl_guide" Content="Klikkaa ensin yhtä numeroa, ja sitten toista, jonka jälkeen = napilla ne summautuvat yhteen." HorizontalAlignment="Center" Margin="0,280,0,0" VerticalAlignment="Top" Width="546" Height="32" FontSize="14" FontStyle="Normal" FontFamily="MS UI Gothic" FontWeight="Normal"/>
         <Label x:Name="lbl_info" Content="INTIM21A6 - Olio-ohjelmointi (WPF-laskin) - Aleksi Bovellan" HorizontalAlignment="Center" Margin="0,362,0,0" VerticalAlignment="Top" Width="273" FontStyle="Normal" FontSize="10"/>
 
     </Grid>
