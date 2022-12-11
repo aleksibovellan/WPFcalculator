@@ -1,9 +1,3 @@
-# WPF tehtävä laskin 17.-31.1.2022
-### HAMK Olio-ohjelmointi - INTIM21A6 - Aleksi Bovellan
+# C# calculator application
 
-Toteuta laskin (demo)  
-Ikkunassa painikkeet 1 - 9 ja =, sekä tuloksen näyttö  
-Laskee yhteen 2 lukua (arvoltaan 1-9)  
-(optional: myös - * ja / )  
-Käyttö: paina numeroa (tulee näyttöön), paina toista numeroa(tulee näyttöön) paina =, tulos näyttöön  
-Palauta projektikansio zipattuna (Documents\VisualStudio 2022\projects\projektinnimi)
+A basic calculator application written in C# language, which takes user input values and executes calculations to show results.
